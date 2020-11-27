@@ -1,5 +1,3 @@
-### where am I?
-
 [![Watch the video](http://img.youtube.com/vi/gxEPV4kolz0/sddefault.jpg)](https://youtu.be/gxEPV4kolz0)
 
 <!--
