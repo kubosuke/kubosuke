@@ -1,4 +1,7 @@
-### Hi there 👋
+### where am I?
+
+<pre><iframe width="100%" height="477" src="https://www.windy.com/?35.327,139.407,15" frameborder="0" rel="0" allow="encrypted-media" allowfullscreen></iframe></pre>
+
 
 <!--
 **kubosuke/kubosuke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
