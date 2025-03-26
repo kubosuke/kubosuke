@@ -13,7 +13,7 @@ Recent activities:
 Dev:
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,rust,python,elixir,ruby,rails,js,ts,react,nextjs,kubernetes,ansible,terraform,redis,mysql,postgres,emacs,vscode&perline=8" />
+  <img src="https://skillicons.dev/icons?i=go,rust,python,elixir,ruby,rails,js,ts,react,nextjs,redis,mysql,postgres,emacs,vscode&perline=8" />
 </a>
 
 Infrastructure:
