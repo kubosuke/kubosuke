@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: kubosuke/gh-oss-stats-action@va
+      - uses: kubosuke/gh-oss-stats@va
         with:
           github-token: ${{ secrets.TOKEN }}
           badge-output-path: 'oss-badge.svg'
