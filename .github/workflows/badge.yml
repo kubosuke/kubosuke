@@ -14,5 +14,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: kubosuke/gh-oss-stats-action@va
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           badge-output-path: 'oss-badge.svg'
