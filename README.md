@@ -21,7 +21,4 @@ Infrastructure:
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=linux,prometheus,jenkins,grafana,kubernetes,ansible,terraform,aws,gcp&perline=6" />
 </a>
-
-![OSS Contributions](oss-badge.svg)
-
 </div>
