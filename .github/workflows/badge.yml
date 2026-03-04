@@ -26,6 +26,7 @@ jobs:
           ./gh-oss-stats \
             -user ${{ github.repository_owner }} \
             -badge \
+            -badge-style detailed \
             -badge-output oss-badge.svg
 
       - name: Commit and push badge
