@@ -12,7 +12,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: kubosuke/gh-oss-stats@va
-        with:
-          github-token: ${{ secrets.TOKEN }}
-          badge-output-path: 'oss-badge.svg'
+
+      - name: Download gh-oss-stats (kubosuke/gh-oss-stats@va)
+        run: |
+          curl -fSL -o gh-oss-stats \
+            "https://github.com/kubosuke/gh-oss-stats/releases/download/va/gh-oss-stats-linux-amd64"
+          chmod +x gh-oss-stats
+
+      - name: Generate badge
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          ./gh-oss-stats \
+            --user ${{ github.repository_owner }} \
+            --badge-output-path oss-badge.svg
+
+      - name: Commit and push badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add oss-badge.svg
+          if ! git diff --staged --quiet; then
+            git commit -m "Update OSS contribution badge"
+            git push
+          fi
