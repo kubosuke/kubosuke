@@ -24,8 +24,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
           ./gh-oss-stats \
-            --user ${{ github.repository_owner }} \
-            --badge-output-path oss-badge.svg
+            -user ${{ github.repository_owner }} \
+            -badge \
+            -badge-output oss-badge.svg
 
       - name: Commit and push badge
         run: |
