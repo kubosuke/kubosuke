@@ -10,6 +10,13 @@ Recent activities:
 [![](https://raw.githubusercontent.com/kubosuke/kubosuke/master/profile-summary-card-output/vue/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/kubosuke/kubosuke/master/profile-summary-card-output/vue/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![](https://raw.githubusercontent.com/kubosuke/kubosuke/master/profile-summary-card-output/vue/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/kubosuke/kubosuke/master/profile-summary-card-output/vue/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
+<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=40480197" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=40480197&image_size=auto&color_scheme=dark" width="771" height="auto">
+    <img alt="Dashboard stats of @kubosuke" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=40480197&image_size=auto&color_scheme=light" width="771" height="auto">
+  </picture>
+</a>
+
 Dev:
 
 <a href="https://skillicons.dev">
